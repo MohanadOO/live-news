@@ -6,7 +6,9 @@ import sortNewsByImage from "../../lib/sortNewsByImage";
 
 async function HomePage() {
   let testResponse: null | NewsResponse = null;
-  if (typeof response === "object") testResponse = sortNewsByImage(response);
+  if (process.env.ENABLE_TEST_RESPONSE === "TRUE") {
+    testResponse = sortNewsByImage(response);
+  }
 
   //Fetch News Data
   const news: NewsResponse =

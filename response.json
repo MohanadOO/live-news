@@ -1,0 +1,130 @@
+{
+  "pagination": {
+    "count": 10,
+    "limit": 10,
+    "offset": 10,
+    "total": 10000
+  },
+  "data": [
+    {
+      "author": null,
+      "category": "business",
+      "country": "at",
+      "description": "In Japan bekommt der US-Chips-Riese Millionen für den Produktionsausbau aber generell werden Investitionen reduziert.",
+      "image": null,
+      "language": "de",
+      "published_at": "2022-09-30T16:31:00Z",
+      "source": "DiePresse.com",
+      "title": "Micron stellt sich auf Abkühlung ein",
+      "url": "https://www.diepresse.com/6196912/Chips_Micron-stellt-sich-auf-Abkuehlung-ein?from=rss"
+    },
+    {
+      "author": "Carola Siedentop",
+      "category": "business",
+      "country": "de",
+      "description": "Die Preise in Deutschland werden nach Erwartung des Ifo-Instituts in den kommenden Monaten nahezu flächendeckend weiter steigen. Betroffen sind nahezu alle Bereiche, vor allem Energie und Lebensmittel.",
+      "image": "https://rp-online.de/imgs/32/1/4/4/9/0/9/6/3/5/tok_4e2c253a96dbae1260a7b4c60e748356/w950_h950_x1500_y1000_DPA_bfunk_dpa_5FA9BA000F7532BF-a96f413c8929d7cf.jpg",
+      "language": "de",
+      "published_at": "2022-10-05T09:06:00Z",
+      "source": "RP Onlione Wirtschaft",
+      "title": "Lebensmittel, Gas und Strom: Preise in Deutschland steigen laut Prognose noch weiter",
+      "url": "https://rp-online.de/wirtschaft/preise-lebensmittel-gas-strom-steigen-in-deutschland-weiter_aid-77839043"
+    },
+    {
+      "author": "Carola Siedentop",
+      "category": "business",
+      "country": "de",
+      "description": "Nach der Streikankündigung der Piloten der Fluggesellschaft Eurowings werden am Donnerstag rund 250 Flüge des Unternehmens ausfallen. Rund 30.000 Passagiere könnten im Laufe des Tages betroffen sein.",
+      "image": "https://rp-online.de/imgs/32/1/4/5/0/0/8/9/0/3/tok_b47a02d0b4a59df9f95274fed419e9f6/w950_h950_x1500_y995_DPA_bfunkdpa_5FAA8C0041DAF256-7e9556c810fdd937.jpg",
+      "language": "de",
+      "published_at": "2022-10-06T05:56:00Z",
+      "source": "RP Onlione Wirtschaft",
+      "title": "Arbeitsniederlegung bei Eurowings : Zahlreiche Flugausfälle in Köln und Düsseldorf wegen Pilotenstreik",
+      "url": "https://rp-online.de/nrw/panorama/flughafen-duesseldorf-und-koeln-bonn-streik-bei-eurowings-ausfaelle_aid-77890817"
+    },
+    {
+      "author": null,
+      "category": "business",
+      "country": "de",
+      "description": "Früher wollte sie Kampfpilotin werden. Heute will sie die Luftfahrt dekarbonisieren: Im Podcast fordert die Grazia Vittadini dafür mehr Zusammenarbeit in der Industrie.",
+      "image": "https://www.handelsblatt.com/images/grazia-vittadini/28730480/2-format2020.png",
+      "language": "de",
+      "published_at": "2022-10-07T15:32:40Z",
+      "source": "Handelsblatt",
+      "title": "Handelsblatt Disrupt: Fliegen mit grünen Kraftstoffen? Das wird kommen, sagt die Technik-Chefin von Rolls-Royce",
+      "url": "https://www.handelsblatt.com/audio/disrupt-podcast/handelsblatt-disrupt-fliegen-mit-gruenen-kraftstoffen-das-wird-kommen-sagt-die-technik-chefin-von-rolls-royce/28729018.html"
+    },
+    {
+      "author": null,
+      "category": "business",
+      "country": "de",
+      "description": "Im Auswärtigen Amt wird an der ersten China-Strategie in der Geschichte Deutschlands gearbeitet. Im Hintergrund zieht besonders eine Frau die Fäden.",
+      "image": "https://www.handelsblatt.com/images/77-generaldebatte-der-un-vollversammlung/28730910/5-format2020.jpg",
+      "language": "de",
+      "published_at": "2022-10-11T02:03:29Z",
+      "source": "Handelsblatt",
+      "title": "Deutsch-Chinesische Beziehungen: Es wird kein „Weiter so“ geben: So entsteht die neue China-Strategie",
+      "url": "https://www.handelsblatt.com/politik/deutschland/deutsch-chinesische-beziehungen-es-wird-kein-weiter-so-geben-so-entsteht-die-neue-china-strategie/28730864.html"
+    },
+    {
+      "author": null,
+      "category": "business",
+      "country": "de",
+      "description": "Der Dax hat am Donnerstag einen Teil seiner frühen Gewinne abgegeben. Zuletzt stand der deutsche Leitindex noch mit 0,16 Prozent im Plus bei 12.537,25 Punkten. Vor dem US-Arbeitsmarktbericht am Freitag werden die Marktteilnehmer offenbar etwas vorsichtiger. Der MDax der mittelgroßen Unternehmen legte um 0,83 Prozent auf...",
+      "image": "https://alt.finanztreff.de/sc/news2-feed-img/2022-10-06/img-22-30622511-1_urn-newsml-dpa-com-20090101-221006-99-25275.jpeg",
+      "language": "de",
+      "published_at": "2022-10-06T11:13:46Z",
+      "source": "Finanztreff",
+      "title": "Dax-Erholung gerät ins Stocken",
+      "url": "http://alt.finanztreff.de/news/dax-erholung-geraet-ins-stocken/30622511"
+    },
+    {
+      "author": null,
+      "category": "business",
+      "country": "de",
+      "description": "Belarus macht den Weg frei für den Einsatz von Atomwaffen. Droht eine Eskalation zwischen der Nato und Russland, wenn der Westen die Ruhe verliert?",
+      "image": "https://www.handelsblatt.com/images/der-autor/28664554/3-format2020.jpg",
+      "language": "de",
+      "published_at": "2022-10-07T02:11:37Z",
+      "source": "Handelsblatt",
+      "title": "Kolumne Geoeconomics: Atomwaffen in Belarus: Eine Bedrohung für die europäische Sicherheitsordnung?",
+      "url": "https://www.handelsblatt.com/meinung/kolumnen/geoeconomics/kolumne-geoeconomics-atomwaffen-in-belarus-eine-bedrohung-fuer-die-europaeische-sicherheitsordnung/28727040.html"
+    },
+    {
+      "author": null,
+      "category": "business",
+      "country": "de",
+      "description": "Deutschland braucht gigantische Mengen grünen Wasserstoffs, um Produkte wie Stahl klimaneutral herzustellen. Doch der Transport bereitet Probleme. Ein Blick auf Lösungsansätze.",
+      "image": "https://www.handelsblatt.com/images/gruener-wasserstoff-/28726614/6-format2020.png",
+      "language": "de",
+      "published_at": "2022-10-08T08:11:00Z",
+      "source": "Handelsblatt",
+      "title": "Insight Innovation: Grüner Wasserstoff soll die Wirtschaft retten – aber wie bekommt man ihn nach Deutschland?",
+      "url": "https://www.handelsblatt.com/technik/forschung-innovation/insight-innovation-gruener-wasserstoff-soll-die-wirtschaft-retten-aber-wie-bekommt-man-ihn-nach-deutschland/28728522.html"
+    },
+    {
+      "author": "FOCUS online",
+      "category": "business",
+      "country": "de",
+      "description": "Die Gehälter der EU-Beamten sollen um 6,9 Prozent steigen. Hintergrund sind die stark gestiegenen Preise wegen der Inflation. Die EU-Staaten wollen das nicht, sie verweisen auf enorme Kosten.",
+      "image": null,
+      "language": "de",
+      "published_at": "2022-10-10T08:13:08Z",
+      "source": "Focus",
+      "title": "Mitgliedsländer wütend - Zoff um dicke Gehaltserhöhung für EU-Beamte",
+      "url": "https://www.focus.de/finanzen/fast-sieben-prozent-zoff-um-dicke-gehaltserhoehung-fuer-eu-beamte_id_162649401.html"
+    },
+    {
+      "author": null,
+      "category": "business",
+      "country": "at",
+      "description": "Besonders stark entwickelte sich das Bauwesen, wie aus einer Aussendung der Statistik Austria hervorgeht.",
+      "image": "https://media.diepresse.com/images/uploads_500/d/a/9/6200745/ARCHIVFOTO-Handwerker-und-Fachkrftemangel-in-Deutschland-am-21072022-Symbolbild-Bauarbeiter-mit-Presslufthammer-in-Wi_1665391847018825_v0_h.jpg",
+      "language": "de",
+      "published_at": "2022-10-10T08:53:00Z",
+      "source": "DiePresse.com",
+      "title": "Industrie und Bau melden im August 7,6 Prozent mehr Produktion",
+      "url": "https://www.diepresse.com/6200745/Produktionsindex_Industrie-und-Bau-melden-im-August-76-Prozent?from=rss"
+    }
+  ]
+}
