@@ -9,9 +9,6 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head>
-        <title>The On Time News</title>
-      </head>
       <Providers>
         <body className="bg-gray-100 transition-all duration-700 dark:bg-zinc-900 dark:text-white">
           <Header />
