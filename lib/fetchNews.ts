@@ -18,6 +18,8 @@ const fetchNews = async (
         categories: $categories
         keywords: $keywords
         languages: "en, ar"
+        sort: "published_desc"
+        limit: 10
       ) {
         data {
           author
@@ -62,8 +64,6 @@ const fetchNews = async (
       }),
     }
   );
-
-
 
   const newsResponse = await res.json();
   //Sort function images vs not images preset
