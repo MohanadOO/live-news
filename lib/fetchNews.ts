@@ -3,7 +3,7 @@ import sortNewsByImage from "./sortNewsByImage";
 
 const fetchNews = async (
   category?: Category | string,
-  keywords: string | undefined = "",
+  keywords: string | string[] | undefined = "",
   isDynamic?: boolean
 ) => {
   //GraphQL Query
@@ -47,7 +47,7 @@ const fetchNews = async (
     {
       method: "POST",
       cache: isDynamic ? "no-cache" : "default",
-      next: isDynamic ? { revalidate: 0 } : { revalidate: 20 },
+      next: isDynamic ? { revalidate: 0 } : { revalidate: 60 },
       headers: {
         "Content-Type": "application/json",
         Authorization: `APIKey ${process.env.STEPZEN_API_KEY}`,
@@ -63,7 +63,7 @@ const fetchNews = async (
     }
   );
 
-  console.log("Loading new Date for this category >>>", category, keywords);
+
 
   const newsResponse = await res.json();
   //Sort function images vs not images preset

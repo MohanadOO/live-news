@@ -1,24 +1,25 @@
-import { notFound } from "next/navigation";
-import LiveTimeStamp from "../LiveTimeStamp";
+import Error from "next/error";
+import { useRouter } from "next/router";
+import LiveTimeStamp from "../../../components/LiveTimeStamp";
 
-type Props = {
-  searchParams?: Article;
-};
+function ArticlePage() {
+  const router = useRouter();
+  const searchParams = router.query;
 
-function ArticlePage({ searchParams }: Props) {
   if (
     (searchParams && Object.entries(searchParams).length === 0) ||
     !searchParams
   ) {
-    return notFound();
+    return <Error statusCode={404} />;
   }
 
-  const article: Article = searchParams;
+  const article = searchParams as Article;
 
   return (
     <article>
       <section className="flex flex-col px-0 pb-24 lg:flex-row lg:px-10">
         {article.image && (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             className="h-50 mx-auto max-w-md rounded-lg object-cover shadow-md md:max-w-lg lg:max-w-xl"
             alt={article.title}

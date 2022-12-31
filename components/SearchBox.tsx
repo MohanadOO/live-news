@@ -1,7 +1,5 @@
-"use client";
-
 import { useRouter } from "next/navigation";
-import type { FormEvent} from "react";
+import type { FormEvent } from "react";
 import { useState } from "react";
 
 function SearchBox() {
