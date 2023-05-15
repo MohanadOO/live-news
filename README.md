@@ -1,8 +1,3 @@
----
-type: readme
-tags: live-news, react, api, vercel, nextjs, tailwindcss
----
-
 # Live News
 
 A **Live News** application built with **NextJS** and **TailwindCSS** and using [MediaStack](https://mediastack.com/) API to fetch the latest news on certain topics or using the search input field.
