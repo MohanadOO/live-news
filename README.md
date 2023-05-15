@@ -1,28 +1,63 @@
-# Create T3 App
+---
+type: readme
+tags: live-news, react, api, vercel, nextjs, tailwindcss
+---
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+# Live News
 
-## What's next? How do I make an app with this?
+A **Live News** application built with **NextJS** and **TailwindCSS** and using [MediaStack](https://mediastack.com/) API to fetch the latest news on certain topics or using the search input field.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+[StepZen](https://stepzen.com/) was used in this project to introspects  **MediaStack** API endpoints and easily generate **GraphQL** schemas.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Table of contents
+- [Overview](#overview)
+	- [Features](#features)
+	- [Screenshot](#screenshot)
+	- [Links](#links)
+	- [Setup](#setup)
+- [My process](#my-process)
+	- [Built with](#built-with)
+- [Author](#Author)
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Overview
 
-## Learn More
+### Features
+**Users should be able to:**
+- View the optimal layout for the site depending on their device's screen size 💻/ 📱
+- Using the [mediastack](https://mediastack.com/) API you could search for the latest news 📰 
+- Dark and Light Theme 🎨
+- Using NextJS Revalidation for all genres at the top to minimize API calls and serve static pages 📃
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Screenshot
+![Light Theme](./public/light.png)
+![Dark Theme](./public/dark.png)
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Links
+- Live Site URL: [Here](https://live-news-seven.vercel.app/)
+- GitHub URL: [Here](https://github.com/MohanadOO/live-news) 
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Setup
 
-## How do I deploy this?
+Using yarn 👇
+```
+$ yarn
+$ yarn dev
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Using NPM👇
+```
+$ npm install
+$ npm run dev
+```
+
+## My process
+
+### Built with
+- [React](https://reactjs.org/) - JS library
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [React Icons](https://react-icons.github.io/react-icons/) - React icons provides a huge collections of icons from different sources.
+- [GraphQL](https://graphql.org/) - A query language for your API
+
+## Author
+- Website - [Mohanad Portfolio](https://www.mohanad.in/)
+- Twitter - [@MohanadOO_](https://twitter.com/MohanadOO_)
